@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="GreenLife - Beautiful plants for a greener and happier life.">
+
+    <title>GreenLife - Plant Shop</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                🌿 GreenLife
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation menu">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#products">Products</a>
+                </li>
+
+                <li>
+                    <a href="#tips">Plant Tips</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <button class="cart-button" id="cartButton">
+                🛒 Cart
+                <span id="cartCount">0</span>
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="hero-small-title">
+                    WELCOME TO GREENLIFE
+                </p>
+
+                <h1>
+                    Bring Nature<br>
+                    Into Your Home
+                </h1>
+
+                <p class="hero-text">
+                    Beautiful plants for a greener,
+                    fresher and happier life.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#products" class="primary-button">
+                        Shop Plants
+                    </a>
+
+                    <a href="#about" class="secondary-button">
+                        Learn More
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-plant">
+                🌿
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+        <section class="features">
+
+            <div class="feature">
+                <div class="feature-icon">🌱</div>
+                <h3>Fresh Plants</h3>
+                <p>
+                    Carefully selected plants for your home.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">🚚</div>
+                <h3>Easy Delivery</h3>
+                <p>
+                    Safe and convenient plant delivery.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">💚</div>
+                <h3>Happy Home</h3>
+                <p>
+                    Make your living space greener and brighter.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRODUCTS ================= -->
+        <section class="section" id="products">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    OUR COLLECTION
+                </p>
+
+                <h2>
+                    Popular Plants
+                </h2>
+
+                <p>
+                    Find the perfect plant for your home.
+                </p>
+
+            </div>
+
+
+            <div class="product-grid">
+
+                <!-- Product 1 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+                        🌿
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            Indoor Plant
+                        </span>
+
+                        <h3>Monstera</h3>
+
+                        <p>
+                            A beautiful tropical plant
+                            with large green leaves.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <span class="price">
+                                250,000 VNĐ
+                            </span>
+
+                            <button
+                                class="add-cart"
+                                data-name="Monstera">
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 2 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+                        🌵
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            Easy Care
+                        </span>
+
+                        <h3>Succulent</h3>
+
+                        <p>
+                            A small and cute plant
+                            that is easy to care for.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <span class="price">
+                                80,000 VNĐ
+                            </span>
+
+                            <button
+                                class="add-cart"
+                                data-name="Succulent">
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 3 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+                        🌱
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            Home Plant
+                        </span>
+
+                        <h3>Snake Plant</h3>
+
+                        <p>
+                            A strong indoor plant
+                            with beautiful tall leaves.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <span class="price">
+                                180,000 VNĐ
+                            </span>
+
+                            <button
+                                class="add-cart"
+                                data-name="Snake Plant">
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 4 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+                        🪴
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            Popular
+                        </span>
+
+                        <h3>Money Tree</h3>
+
+                        <p>
+                            A lovely green plant
+                            for your home or office.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <span class="price">
+                                220,000 VNĐ
+                            </span>
+
+                            <button
+                                class="add-cart"
+                                data-name="Money Tree">
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 5 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+                        🍃
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            Indoor Plant
+                        </span>
+
+                        <h3>Golden Pothos</h3>
+
+                        <p>
+                            A simple hanging plant
+                            with beautiful green leaves.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <span class="price">
+                                150,000 VNĐ
+                            </span>
+
+                            <button
+                                class="add-cart"
+                                data-name="Golden Pothos">
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 6 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+                        🌵
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            Small Plant
+                        </span>
+
+                        <h3>Cactus</h3>
+
+                        <p>
+                            A small plant that needs
+                            very little water.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <span class="price">
+                                70,000 VNĐ
+                            </span>
+
+                            <button
+                                class="add-cart"
+                                data-name="Cactus">
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TIPS ================= -->
+        <section class="tips-section" id="tips">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    PLANT CARE
+                </p>
+
+                <h2>
+                    Simple Plant Care Tips
+                </h2>
+
+                <p>
+                    A few simple tips to help your plants grow.
+                </p>
+
+            </div>
+
+
+            <div class="tips-grid">
+
+                <article class="tip-card">
+
+                    <div class="tip-icon">
+                        ☀️
+                    </div>
+
+                    <h3>Light</h3>
+
+                    <p>
+                        Put your plants in a place
+                        with suitable natural light.
+                    </p>
+
+                </article>
+
+
+                <article class="tip-card">
+
+                    <div class="tip-icon">
+                        💧
+                    </div>
+
+                    <h3>Water</h3>
+
+                    <p>
+                        Water your plants regularly,
+                        but avoid too much water.
+                    </p>
+
+                </article>
+
+
+                <article class="tip-card">
+
+                    <div class="tip-icon">
+                        🌱
+                    </div>
+
+                    <h3>Soil</h3>
+
+                    <p>
+                        Use clean and suitable soil
+                        for healthy plant growth.
+                    </p>
+
+                </article>
+
+
+                <article class="tip-card">
+
+                    <div class="tip-icon">
+                        🏡
+                    </div>
+
+                    <h3>Location</h3>
+
+                    <p>
+                        Choose a comfortable location
+                        with good air circulation.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section class="section about-section" id="about">
+
+            <div class="about-container">
+
+                <div class="about-visual">
+                    🌿
+                </div>
+
+                <div class="about-content">
+
+                    <p class="section-label">
+                        ABOUT GREENLIFE
+                    </p>
+
+                    <h2>
+                        Make Your Home
+                        A Little Greener
+                    </h2>
+
+                    <p>
+                        GreenLife is a simple online plant shop
+                        created for people who love nature and
+                        beautiful living spaces.
+                    </p>
+
+                    <p>
+                        We believe that a small plant can make
+                        your room feel fresher, calmer and more
+                        comfortable.
+                    </p>
+
+                    <a href="#contact" class="primary-button">
+                        Contact Us
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section class="contact-section" id="contact">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    CONTACT US
+                </p>
+
+                <h2>
+                    Let's Make Your Space Greener
+                </h2>
+
+                <p>
+                    Have a question? Contact GreenLife today.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <div class="contact-card">
+                    <div>📍</div>
+                    <h3>Address</h3>
+                    <p>
+                        123 Nguyen Trai Street,
+                        Hanoi, Vietnam
+                    </p>
+                </div>
+
+                <div class="contact-card">
+                    <div>📞</div>
+                    <h3>Phone</h3>
+                    <p>
+                        0123 456 789
+                    </p>
+                </div>
+
+                <div class="contact-card">
+                    <div>✉️</div>
+                    <h3>Email</h3>
+                    <p>
+                        hello@greenlife.com
+                    </p>
+                </div>
+
+            </div>
+
+
+            <button class="primary-button contact-button"
+                id="contactButton">
+                Send Message
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>🌿 GreenLife</h3>
+
+                <p>
+                    Bring nature into your home.
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    © 2026 GreenLife.
+                    All Rights Reserved.
+                </p>
+
+                <p>
+                    Web Design Project
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= CART MODAL ================= -->
+    <div class="modal" id="cartModal">
+
+        <div class="modal-content">
+
+            <button class="close-modal" id="closeModal">
+                ×
+            </button>
+
+            <h2>🛒 Your Cart</h2>
+
+            <div id="cartItems">
+                <p class="empty-cart">
+                    Your cart is empty.
+                </p>
+            </div>
+
+            <div class="cart-total">
+                Items: <strong id="cartTotal">0</strong>
+            </div>
+
+            <button class="primary-button" id="checkoutButton">
+                Checkout
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+    <script src="script.js"></script>
+
+</body>
+</html>
